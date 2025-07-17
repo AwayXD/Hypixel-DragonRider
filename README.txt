@@ -1,5 +1,5 @@
- align="center">
-  🐉 Dragon Rider Victory Dance Spoofer
+ <h1 align="center">
+  Dragon Rider Victory Dance Spoofer
 </h1>
 
 <p align="center">
@@ -13,9 +13,9 @@
 
 ---
 
-## ✨ Overview
+##  Overview
 
-This mod gives you the <b style="color:#8e44ad">"Dragon Rider"</b> victory dance — no Ranked Rewards, no challenge grind.
+This mod gives you the <b>"Dragon Rider"</b> victory dance — no Ranked Rewards, no challenge grind.
 
 When you win a game, it spawns and animates a custom entity to simulate the Dragon Rider dance — giving you the full experience, automatically. 
 
@@ -37,33 +37,28 @@ For best results, use a flying-based victory dance like:
 
 ```sh
 git clone https://github.com/awayxd/DragonRider.git
-```
-- or, Download the jar in Releases and put it in your mods folder
-- Launch Minecraft and enable the mod with /dragonrider. default is (ON)
+
+	•	Or, download the JAR in Releases and put it in your mods folder
+	•	Launch Minecraft and enable the mod with /dragonrider (default is ON)
 
 
----
-
-## 💬 Support / Questions
+Support / Questions
 
 Got questions or need help?
 
-> DM me on Discord: **@bedwarsmontage**
+DM me on Discord: @bedwarsmontage
 
----
+⸻
 
-## 🪄 Other Notes
-
-- Feel free to **fork or modify** in any way!  
-- Just leave a ⭐ if you like it... ;>  
-- Contributions welcome!
-
----
+Other Notes
+	•	Feel free to fork or modify in any way
+	•	Just leave a ⭐ if you like it… ;>
+	•	Contributions welcome!
 
 <p align="center">
-  <img src="" width="600px">
+  <img src="https://i.makeagif.com/media/4-30-2015/blTGfn.gif" width="600px">
 </p>
-
 <p align="center">
   <i>Enjoy your victory flight.</i> 
 </p>
+```
