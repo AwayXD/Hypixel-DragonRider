@@ -1,4 +1,4 @@
- <h1 align="center">
+ <h1 align="left">
   Dragon Rider Victory Dance Spoofer
 </h1>
 
@@ -38,8 +38,8 @@ For best results, use a flying-based victory dance like:
 ```sh
 git clone https://github.com/awayxd/DragonRider.git
 
-	•Or, download the JAR in Releases and put it in your mods folder
-	•Launch Minecraft and enable the mod with /dragonrider (default is ON)
+•Or, download the JAR in Releases and put it in your mods folder
+•Launch Minecraft and enable the mod with /dragonrider (default is ON)
 
 
 Support / Questions
@@ -51,9 +51,9 @@ DM me on Discord: @bedwarsmontage
 ⸻
 
 Other Notes
-	•Feel free to fork or modify in any way
-	•Just leave a ⭐ if you like it… ;>
-	•Contributions welcome!
+•Feel free to fork or modify in any way
+•Just leave a ⭐ if you like it… ;>
+•Contributions welcome!
 ```
 
 <p align="center">
