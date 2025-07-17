@@ -25,8 +25,8 @@ When you win a game, it spawns and animates a custom entity to simulate the Drag
 
 For best results, use a flying-based victory dance like:
 
-- **Snow Golem**
 - **Chinese Dragon**
+- **Snow Golem**
 - **Wither Rider**
 
 > These allow you to actually **fly** with the spoofed dragon for full effect!
