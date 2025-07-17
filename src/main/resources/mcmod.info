@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "dragonrider",
+  "name": "Dragon Rider",
+  "description": "This mod gives you the Dragon Rider victory dance — no Ranked Rewards, no challenge grind. When you win a game, it spawns and animates a custom entity to simulate the Dragon Rider dance — giving you the full experience, automatically. enable/disable with /dragonrider",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/AwayXD/DragonRider",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "authorList": ["Away"],
+  "credits": "AwayXD",
+  "logoFile": "cute.png",
   "screenshots": [],
   "dependencies": []
 }
