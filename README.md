@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/yourusername/dragon-rider-mod?color=6f42c1&style=flat-square">
+  <img src="https://img.shields.io/github/stars/awayxd/DragonRider?color=6f42c1&style=flat-square">
   <img src="https://img.shields.io/badge/minecraft-mod-purple?style=flat-square&logo=minecraft&color=6f42c1">
 </p>
 
