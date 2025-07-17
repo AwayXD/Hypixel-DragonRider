@@ -1,10 +1,69 @@
-This mod gives you the "Dragon Rider" victory dance. This is done by creating and animating a fake entity that's triggered every time you win a game, giving you the victory dance without having to do the work of doing the challenges to get the ranked reward.
+ align="center">
+  🐉 Dragon Rider Victory Dance Spoofer
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/yourusername/dragon-rider-mod?color=6f42c1&style=flat-square">
+  <img src="https://img.shields.io/badge/minecraft-mod-purple?style=flat-square&logo=minecraft&color=6f42c1">
+</p>
+
+<p align="center">
+  <b><i>Ride the dragon without grinding Ranked Rewards.</i></b>
+</p>
+
+---
+
+## ✨ Overview
+
+This mod gives you the <b style="color:#8e44ad">"Dragon Rider"</b> victory dance — no Ranked Rewards, no challenge grind.
+
+When you win a game, it spawns and animates a custom entity to simulate the Dragon Rider dance — giving you the full experience, automatically. 
+
+---
+
+## 🛠️ Recommendations
+
+For best results, use a flying-based victory dance like:
+
+- **Snow Golem**
+- **Chinese Dragon**
+- **Wither Rider**
+
+> These allow you to actually **fly** with the spoofed dragon for full effect!
+
+---
+
+## 📂 Installation/Usage
+
+```sh
+git clone https://github.com/awayxd/DragonRider.git
+```
+- or, Download the jar in Releases and put it in your mods folder
+- Launch Minecraft and enable the mod with /dragonrider. default is (ON)
 
 
- - recommendatons
-use a flying victory dance like "Snow Golem", "Chineese Dragon", Etc so you actually can fly with it
+---
 
-- other info
-please feel free to fork or mofify in any way! (just leave a star ;>. )
+## 💬 Support / Questions
 
-any questions or support you can dm me on discord - @bedwarsmontage
+Got questions or need help?
+
+> DM me on Discord: **@bedwarsmontage**
+
+---
+
+## 🪄 Other Notes
+
+- Feel free to **fork or modify** in any way!  
+- Just leave a ⭐ if you like it... ;>  
+- Contributions welcome!
+
+---
+
+<p align="center">
+  <img src="" width="600px">
+</p>
+
+<p align="center">
+  <i>Enjoy your victory flight.</i> 
+</p>
