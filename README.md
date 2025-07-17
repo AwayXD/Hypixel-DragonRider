@@ -1,4 +1,4 @@
- <h1 align="left">
+ <h1 align="center">
   Dragon Rider Victory Dance Spoofer
 </h1>
 
