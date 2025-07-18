@@ -39,7 +39,7 @@ For best results, use a flying-based victory dance like:
 git clone https://github.com/awayxd/DragonRider.git
 
 •Or, download the JAR in Releases and put it in your mods folder
-•Launch Minecraft and enable the mod with /dragonrider (default is ON)
+•Launch Minecraft and enable the mod with /dragonspoof (default is ON)
 
 
 Support / Questions
