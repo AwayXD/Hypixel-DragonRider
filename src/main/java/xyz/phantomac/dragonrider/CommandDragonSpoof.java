@@ -5,22 +5,22 @@ import net.minecraft.command.ICommandSender;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 
-public class CommandDragonRider extends CommandBase {
+public class CommandDragonSpoof extends CommandBase {
 
     private final DragonRider mod;
 
-    public CommandDragonRider(DragonRider mod) {
+    public CommandDragonSpoof(DragonRider mod) {
         this.mod = mod;
     }
 
     @Override
     public String getCommandName() {
-        return "dragonrider";
+        return "dragonspoof";
     }
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "/dragonrider [circle|stop] - toggles or changes dragon behavior.";
+        return "/dragonspoof [circle|stop] - toggles or changes dragon behavior.";
     }
 
     @Override
@@ -33,7 +33,7 @@ public class CommandDragonRider extends CommandBase {
             mod.stopCircling();
         } else {
             sender.addChatMessage(new ChatComponentText(
-                    EnumChatFormatting.RED + "Usage: /dragonrider [circle|stop]"
+                    EnumChatFormatting.RED + "Usage: /dragonspoof [circle|stop]"
             ));
         }
     }

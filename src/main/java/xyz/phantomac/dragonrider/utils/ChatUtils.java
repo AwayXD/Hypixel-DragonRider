@@ -7,6 +7,7 @@ import net.minecraft.util.IChatComponent;
 
 
 public class ChatUtils {
+    // taken from my other mod "AwayTils" - Away
 
     private static final Minecraft mc = Minecraft.getMinecraft();
 

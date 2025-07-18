@@ -5,13 +5,12 @@ import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
+import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.client.event.RenderWorldLastEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.entity.player.AttackEntityEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import xyz.phantomac.dragonrider.utils.ChatUtils;
 
@@ -56,6 +55,7 @@ public class DragonRider {
 //                EnumChatFormatting.GREEN + "[DragonRider] " +
 //                        EnumChatFormatting.AQUA + "Dragon spawned below you!"
 //        ));
+        // for debug purposes, can uncomment if you'd like - Away
     }
 
     @SubscribeEvent
@@ -98,8 +98,7 @@ public class DragonRider {
     }
     @Mod.EventHandler
     public void onServerStarting(net.minecraftforge.fml.common.event.FMLServerStartingEvent event) {
-        event.registerServerCommand(new CommandDragonRider(this));
-    }
+        ClientCommandHandler.instance.registerCommand(new CommandDragonSpoof(this));    }
 
     public void toggle() {
         enabled = !enabled;
