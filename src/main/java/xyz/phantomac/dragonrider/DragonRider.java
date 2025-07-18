@@ -39,6 +39,7 @@ public class DragonRider {
         String cleanMessage = ChatUtils.getHypixelMessage(event.message);
         if (cleanMessage != null && cleanMessage.toLowerCase().contains("you won! want to play again? click here!")) {
             spawnDragon();
+            // this will only work if launguage is set to ENGLISH, you will have to edit if it's a different language (keep lowercase) - Away
         }
     }
     private void spawnDragon() {
@@ -63,7 +64,7 @@ public class DragonRider {
         Minecraft mc = Minecraft.getMinecraft();
         if (entityDragon == null || mc.thePlayer == null || mc.theWorld == null) return;
 
-        if (System.currentTimeMillis() - dragonSpawnTime > 5000) {
+        if (System.currentTimeMillis() - dragonSpawnTime > 9000) {
             mc.theWorld.removeEntityFromWorld(-1);
             entityDragon = null;
             return;
@@ -82,7 +83,7 @@ public class DragonRider {
             entityDragon.rotationYaw = (float) Math.toDegrees(Math.atan2(player.posZ - z, player.posX - x)) - 90F;
         } else {
             x = player.posX;
-            y = player.posY - 4.5;
+            y = player.posY - 3.6; // distance below player - Away
             z = player.posZ;
             entityDragon.rotationYaw = player.rotationYawHead - 180f;
         }
