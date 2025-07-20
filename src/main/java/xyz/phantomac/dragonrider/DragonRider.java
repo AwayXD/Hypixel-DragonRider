@@ -83,7 +83,7 @@ public class DragonRider {
             entityDragon.rotationYaw = (float) Math.toDegrees(Math.atan2(player.posZ - z, player.posX - x)) - 90F;
         } else {
             x = player.posX;
-            y = player.posY - 3.6; // distance below player - Away
+            y = player.posY - 4.0; // distance below player - Away
             z = player.posZ;
             entityDragon.rotationYaw = player.rotationYawHead - 180f;
         }
